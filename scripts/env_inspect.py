@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 env = gym.make(
     "PickCube-v1",
-    num_envs=2,
+    num_envs=1,
     obs_mode="rgbd", 
     control_mode="pd_ee_delta_pose", 
     render_mode="human",
